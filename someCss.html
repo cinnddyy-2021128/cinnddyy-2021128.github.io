@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cindy's Website</title>
+    </head>
+    <body>
+        <h1>Level 1</h1>
+        <h2>Different fonts</h2>
+        <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">HELLO WORLD</p>
+        <p style="font-family:cursive">HELLO WORLD</p>
+        <h2>Two pictures resized</h2>
+        <img src="https://static.boredpanda.com/blog/wp-content/uploads/2020/08/1-5f2a6456cccf0__700.jpg" Style="width:50px;height:50px">
+        <img src="https://image.cnbcfm.com/api/v1/image/106246652-1573788271264gettyimages-1051651510.jpeg?v=1573788570" Style="width:50px;height:50px">
+        <h2>One more CSS command</h2>
+        <p style="background-color: bisque; border-radius: 40px; width: 100px; height: 100px;"></p>
+
+        <h1>Level 2</h1>
+        <h2>text on center of image</h2>
+        <style>
+            .container {
+              position: relative;
+              text-align:center;
+              color: white;
+            }
+            
+            .centered {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+        </style>
+        <div class="container">
+            <img src="https://static.boredpanda.com/blog/wp-content/uploads/2020/08/1-5f2a6456cccf0__700.jpg" Style="width:300px;height:300px">
+            <h1 class="centered">Centered</h1>
+        </div>
+        <h2>Image with margin</h2>
+        <img src="https://static.boredpanda.com/blog/wp-content/uploads/2020/08/1-5f2a6456cccf0__700.jpg" Style="margin: 20px;width:300px;height:300px">
+        <h2>Dotted line border</h2>
+        <p style="background-color: bisque; border-radius: 40px; width: 100px; height: 45px; text-align: center; border-style: dotted;">HELLO WORLD</p>
+    </body>
+</html>
