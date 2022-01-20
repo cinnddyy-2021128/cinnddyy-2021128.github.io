@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Application</title>
+</head>
+
+<body>
+	<h2>Job Application</h2>
+	<form action="http://gclass.alexburner.com/formtest.php" method="post">
+
+		<fieldset>
+			<legend>Login</legend>
+			Email: <input type="text" name="email"><br>
+			Password: <input type="password" name="pwd">
+		</fieldset>
+
+		<fieldset>
+			<legend>Personal Information</legend>
+			First name: <input type="text" name="firstname"><br>
+			Last name: <input type="text" name="lastname"><br>
+			Gender: <input type="radio" name="answer" value="yes"> F
+					<input type="radio" name="answer" value="no"> M
+					<input type="radio" name="answer" value="other"> 
+			Other: <input type="text" name="other">
+		</fieldset>
+
+		<fieldset>
+			<legend>Job Information</legend>
+			<label>What job positions are you applying for</label><br>
+			<input type="checkbox" name="vehicle" value="Bike">Manager<br> 
+			<input type="checkbox" name="vehicle" value="Car">Assistant<br>
+			<input type="checkbox" name="vehicle" value="Car">Project Head<br>
+			<input type="checkbox" name="vehicle" value="Car">Marketing Coordinator<br>
+			<input type="checkbox" name="vehicle" value="Car">Manager Assistant<br>
+
+			<label>What is your highest education background</label>
+			<select name="cars"> 
+				<option value="volvo">Highschool diploma</option> 
+				<option value="saab">Associate's degree</option> 
+				<option value="fiat">Bachlor's degree</option> 
+				<option value="audi">Master's degree</option> 
+				<option value="audi">Doctoral degree</option> 
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>Hours</legend>
+			<label>Hours available</label>
+			<table>
+				<tr>
+					<td></td>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>From</th>
+					<td><input type="time" size="5" name="su_from"></td>
+					<td><input type="time" size="5" name="mo_from"></td>
+					<td><input type="time" size="5" name="tu_from"></td>
+					<td><input type="time" size="5" name="we_from"></td>
+					<td><input type="time" size="5" name="th_from"></td>
+					<td><input type="time" size="5" name="fr_from"></td>
+					<td><input type="time" size="5" name="sa_from"></td>
+				</tr>
+				<tr>
+					<th>Until</th>
+					<td><input type="time" size="5" name="su_until"></td>
+					<td><input type="time" size="5" name="mo_until"></td>
+					<td><input type="time" size="5" name="tu_until"></td>
+					<td><input type="time" size="5" name="we_until"></td>
+					<td><input type="time" size="5" name="th_until"></td>
+					<td><input type="time" size="5" name="fr_until"></td>
+					<td><input type="time" size="5" name="sa_until"></td>
+				</tr>
+			</table>
+		</fieldset>
+		
+
+		<fieldset>
+			<legend>Personal Statement</legend>
+			<label>What makes you qualified for this job?</label><br>
+			<textarea name="essay"></textarea><br>
+			<label>Any other information we should know about?</label><br>
+			<textarea name="essay"></textarea>
+		</fieldset>
+
+		<input type="submit" value="Submit form">
+	</form>
+
+</body>
+
+
+</html>
