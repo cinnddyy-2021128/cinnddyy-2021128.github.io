@@ -1,0 +1,13 @@
+#floated {
+    border:solid 8px purple;
+    width: 400px;
+    float: left;
+    text-align: center;
+    padding: 0px;
+    border-radius: 40px;
+}
+
+#floated ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
